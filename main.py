@@ -12,7 +12,7 @@ def home():
     ##data_webpage = dumps(data_webpage)
     #Return template and data
     #return render_template("index.html", data_app=data_webpage)
-
+    
     #Llama las funciones que hacen el scrap, los cálculos y generan los diccionarios
     laliga=Smart_bet_v1.laliga_top_picks()
     bundesliga=Smart_bet_v1.bundesliga_top_picks()
